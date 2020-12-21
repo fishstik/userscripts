@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Add YouTube channel ID to URL
-// @version      0.1
+// @version      0.2
 // @description  Adds the channel of the currently-playing YouTube video to the URL.
 // @author       fishstik
 // @match        https://*.youtube.com/*
