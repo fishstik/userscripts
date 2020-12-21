@@ -44,8 +44,11 @@ let exposeUserInURL = function() {
         urlPath = href.replace(oldArg, newArg)
     }
   
-    // replace window URL
-    window.history.replaceState(null, document.title, urlPath);
+    // replace window URL, refreshing the page
+    location.replace(urlPath);
+    // this method does not refresh the page, but we need to if we want to reliably use it with other extensions
+    //window.history.replaceState(null, document.title, urlPath);
+    
 };
 
 // observe DOM modifications
