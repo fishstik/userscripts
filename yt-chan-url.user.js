@@ -17,7 +17,6 @@ let exposeUserInURL = function() {
     // get channel ID from href
     const link = document.querySelector('#upload-info ytd-channel-name yt-formatted-string.ytd-channel-name a.yt-simple-endpoint.yt-formatted-string');
     if (link === null) {
-        mutationHandlerTimer = null;
         return;
     }
     const linkHref = link.getAttribute('href');
