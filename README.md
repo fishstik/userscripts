@@ -1,6 +1,8 @@
 # Some userscripts
 
 ### Toggle Discord channel list
+<img src="https://github.com/fishstik/userscripts/raw/main/images/discord-toggle-channels.gif" height="300">
+
 Adds a toggle to collapse or hide the left channel list in Discord. Expanded/collapsed widths are configurable.
 
 ### Add YouTube channel ID to URL
