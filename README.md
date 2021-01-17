@@ -1,7 +1,7 @@
-Some userscripts
+# Some userscripts
 
 ### Toggle Discord channel list
-Adds a toggle to collapse or hide the let channel list in Discord. Expanded/collapsed widths are configurable.
+Adds a toggle to collapse or hide the left channel list in Discord. Expanded/collapsed widths are configurable.
 
 ### Add YouTube channel ID to URL
 Adds the channel of the currently-playing YouTube video to the URL. Can be used with uBlock Origin to whitelist YouTube channels.
